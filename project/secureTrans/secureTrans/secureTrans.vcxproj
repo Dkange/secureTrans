@@ -91,7 +91,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;PROTOBUF_USE_DLLS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>F:\Yan_2\Cpp\secureTrans\protobuf\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -156,17 +156,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Codec.cpp" />
+    <ClCompile Include="CodecFactory.cpp" />
     <ClCompile Include="RequestCodec.cpp" />
+    <ClCompile Include="RequestFactory.cpp" />
     <ClCompile Include="RequestMsg.pb.cc" />
     <ClCompile Include="RespondCodec.cpp" />
+    <ClCompile Include="RespondFactory.cpp" />
     <ClCompile Include="RespondMsg.pb.cc" />
     <ClCompile Include="secureTrans.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Codec.h" />
+    <ClInclude Include="CodecFactory.h" />
     <ClInclude Include="RequestCodec.h" />
+    <ClInclude Include="RequestFactory.h" />
     <ClInclude Include="RequestMsg.pb.h" />
     <ClInclude Include="RespondCodec.h" />
+    <ClInclude Include="RespondFactory.h" />
     <ClInclude Include="RespondMsg.pb.h" />
   </ItemGroup>
   <ItemGroup>
